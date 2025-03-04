@@ -1,0 +1,18 @@
+/* 
+Nombre: [Naiara Cuenca] 
+Curso: [ASIR1] 
+Fecha: [04/03/2025] 
+Ejercicio: [Selectores CSS] 
+*/
+
+/* La clase destacado se le asigna el color rojo */
+.destacado {color:red;}
+
+/* Cambia el color de los párrafos dentro de la división que tenga como id=caja */
+#caja p {color:green;}
+
+/* Cambia el tamaño de fuente a todos los elementos h1 */
+h1 {font-size: 30px;}
+
+/* Cambia el fondo de todos los párrafos dentro de una división */
+div p {background-color: grey;}

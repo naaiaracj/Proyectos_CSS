@@ -7,11 +7,11 @@ Ejercicio: [Grid Layout]
 
 .contenedor-grid {display: grid;
                   flex-direction: row;
-                  grid-template-rows: 100px 200px;
-                  grid-template-columns: 1 1 1;}
+                  grid-template-columns: repeat(3, 1fr);
+                  grid-template-rows: 100px 200px;}
 
 .contenedor-grid > div {margin: 10px;
-                        }
+                        text-align: center;}
 
 /* Ya que nos pide un fondo diferente en cada celda, se crean cuantas clases como celdas existentes */
 .celda1 {display: flex;
@@ -22,3 +22,12 @@ Ejercicio: [Grid Layout]
 
 .celda3 {display: flex;
          background-color: salmon;}
+
+.celda4 {display: flex;
+        background-color: palegreen;}
+
+.celda5 {display: flex;
+         background-color: mediumpurple;}
+
+.celda6 {display: flex;
+         background-color: yellow;}

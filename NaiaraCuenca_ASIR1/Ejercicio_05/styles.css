@@ -1,0 +1,24 @@
+/* 
+Nombre: [Naiara Cuenca] 
+Curso: [ASIR1] 
+Fecha: [04/03/2025] 
+Ejercicio: [Grid Layout] 
+*/
+
+.contenedor-grid {display: grid;
+                  flex-direction: row;
+                  grid-template-rows: 100px 200px;
+                  grid-template-columns: 1 1 1;}
+
+.contenedor-grid > div {margin: 10px;
+                        }
+
+/* Ya que nos pide un fondo diferente en cada celda, se crean cuantas clases como celdas existentes */
+.celda1 {display: flex;
+         background-color: aqua;}
+
+.celda2 {display: flex;
+         background-color: blue;}
+
+.celda3 {display: flex;
+         background-color: salmon;}

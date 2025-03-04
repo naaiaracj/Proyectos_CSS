@@ -6,9 +6,12 @@ Ejercicio: [Flexbox] */
 
 /* En la clase flexbox aplicamos el CSS que nos han pedido*/
 .contenedor-flex {display: flex;
-          justify-content: space-around;}
+          justify-content: space-around;
+          background-color: blue;}
 
 /* Aplicamos a las divisiones hijos qe se creen del contenedor*/
 .contenedor-flex > div {background-color: aqua;
                 width: 100px;
-                height: 100px;}
+                height: 100px;
+                margin: 10px;
+                text-align: center;}

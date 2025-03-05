@@ -1,0 +1,33 @@
+/* 
+Nombre: [Naiara Cuenca] 
+Curso: [ASIR1] 
+Fecha: [05/03/2025] 
+Ejercicio: [Diseño de un Panel de Dashboard Interactivo] 
+*/
+
+.sidebar {width: 20%;
+          justify-content: left;}
+
+header {justify-content: space-around;
+        background-color: grey;}
+
+/* Creamos un contenedor grid que tenga dos filas y dos columnas */
+.contenedor-main {display: grid;
+                  grid-template-columns: 1fr 1fr;
+                  grid-template-rows: 1fr 1fr;
+                  margin: 10px;}
+
+/* Creamos una clase para cada tarjeta ya que nos pide un fondo diferente para cada una*/
+.card {background-color: aqua;}
+
+/* Además utilizamos hover para cambiar el fondo y hacer la tarjeta ligeramente más grande cuando pasemos el mouse por arriba*/
+.card:hover {background-color: palegoldenrod;
+             transform: scale(1.2);}
+
+.card1 {background-color: palegoldenrod;}
+.card1:hover {background-color: aqua;
+             transform: scale(1.2);}
+
+.card2 {background-color: palegreen;}
+.card2:hover {background-color:pink;
+             transform: scale(1.2);}
